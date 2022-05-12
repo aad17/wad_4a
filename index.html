@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+
+        <!-- Include meta tag to ensure proper rendering and touch zooming -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Include jQuery Mobile stylesheets -->
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+        
+        <!-- Include the jQuery library -->
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+        
+        <!-- Include the jQuery Mobile library -->
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        
+        </head>
+    <title>Jquey mobile</title>
+    
+</head>
+<body>
+    <section data-role="page" id="page1">
+        <header data-role="header">Page 1</header>
+        <div data-role="content">This is content <a href="#page2">Link to Page 2</a></div>
+        <footer data-role="footer">This is a footer</footer>
+    </section>
+    <section data-role="page" id="page2">
+        <header data-role="header">Page 2</header>
+        <div data-role="content">This is content <a href="#page1">Link to page 1</a></div>
+        <footer data-role="footer">This is a footer</footer>
+    </section>
+</body>
+</html>
